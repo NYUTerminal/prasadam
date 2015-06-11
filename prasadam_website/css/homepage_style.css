@@ -1,27 +1,93 @@
-/*
-Template: 2047 Brown Field
-Credit: http://www.tooplate.com/view/2047-brown-field
-*/
 
 body {
 	margin: 0;
 	padding: 0;
 	color: #554a46;
-	font-family: MyriadPro-Regular;
+	font-family: "Myriad-Pro";
 	font-size: 13px;
 	line-height: 1.7em; 
 	background-color: #090100;
-	background-image: url(../images/tooplate_body.jpg);
+	background-image: url(../images/GrassBack.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 }
-#prasadam_header {
-	padding-top: 150px;
-	margin-top: 10px;
-	margin-left: 500px;
-	margin-right: 200px;
-	background-image: url(../images/prasadam_header.png);
+
+h2 {
+position: absolute;
+top:200px;
+left:0;
+width:100%;
 }
+
+.contain {
+max-width:1000px;
+text-align:center;
+}
+
+.row {
+	position: relative;
+	padding-left: 125px;
+}
+
+#white_canvas{
+	width: 980px;
+	height: 540px;
+}
+
+#prasadam_header {
+	width: 800px; 
+	height: 180px;
+	margin-top: 125px;
+}
+#home_header {
+	width: 180px; 
+	height: 180px;
+	margin-top: 125px;
+}
+#people_header {
+	width: 180px; 
+	height: 180px;
+}
+#we_header {
+	width: 180px; 
+	height: 180px;
+}
+
+#karma_header {
+	width: 620px; 
+	height: 180px;
+}
+#shopping_header {
+	width: 180px; 
+	height: 180px;
+}
+#contactus_header {
+	width: 180px; 
+	height: 180px;
+}
+#peace_header {
+	width: 620px; 
+	height: 180px;
+}
+#facebook_header {
+	width: 180px; 
+	height: 180px;
+}
+#twitter_header {
+	width: 180px; 
+	height: 180px;
+}
+#recycle_header {
+	width: 180px; 
+	height: 180px;
+}
+#roaring_header {
+	width: 440px; 
+	height: 180px;
+}
+
+
+
 
 .orange {
 	color: #C60;
@@ -95,13 +161,13 @@ cite span {
 
 em { color: #000; }
 
-h1, h2, h3, h4, h5, h6 { color: #666; font-weight: normal; }
+/*h1, h2, h3, h4, h5, h6 { color: #666; font-weight: normal; }
 h1 { font-size: 34px; margin: 0 0 20px; padding: 5px 0 }
 h2 { font-size: 28px; margin: 0 0 15px; padding: 5px 0; }
 h3 { font-size: 24px; margin: 0 0 15px; padding: 0; }
 h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
 h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
-h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }*/
 
 .cleaner { clear: both }
 .h10 { height: 10px }
