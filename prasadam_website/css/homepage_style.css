@@ -12,6 +12,11 @@ body {
 	background-repeat: no-repeat;
 }
 
+@font-face {
+   font-family: myFirstFont;
+   src: url(fonts/MyriadPro-Regular.otf);
+}
+
 h2 {
 position: absolute;
 top:200px;
