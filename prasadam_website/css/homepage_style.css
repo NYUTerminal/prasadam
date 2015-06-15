@@ -24,71 +24,67 @@ left:0;
 width:100%;
 }
 
-.contain {
-max-width:1000px;
-text-align:center;
-}
-
 .row {
 	position: relative;
-	padding-left: 125px;
-}
-
-#white_canvas{
-	width: 980px;
-	height: 540px;
+	margin-left: 175px;
+	margin-top: 0px;
+	/*width: 100%;*/
 }
 
 #prasadam_header {
-	width: 800px; 
-	height: 180px;
-	margin-top: 125px;
+	/*width: 800px; */
+	width:75%;	
+	height: 200px;
+	margin-top: 50px;
 }
 #home_header {
-	width: 180px; 
-	height: 180px;
-	margin-top: 125px;
+	width: 200px; 
+	height: 200px;
+	margin-top: 50px;
 }
 #people_header {
-	width: 180px; 
-	height: 180px;
+	width: 200px; 
+	height: 200px;
 }
 #we_header {
-	width: 180px; 
-	height: 180px;
+	width: 200px; 
+	height: 200px;
 }
 
 #karma_header {
-	width: 620px; 
-	height: 180px;
+	width:61.7%%;
+/*	width: 620px; 
+*/	height: 200px;
 }
 #shopping_header {
-	width: 180px; 
-	height: 180px;
+	width: 200px; 
+	height: 200px;
 }
 #contactus_header {
-	width: 180px; 
-	height: 180px;
+	width: 200px; 
+	height: 200px;
 }
 #peace_header {
-	width: 620px; 
-	height: 180px;
+	/*width: 620px; */
+	width:61.7%%;
+	height: 200px;
 }
 #facebook_header {
-	width: 180px; 
-	height: 180px;
+	width: 200px; 
+	height: 200px;
 }
 #twitter_header {
-	width: 180px; 
-	height: 180px;
+	width: 200px; 
+	height: 200px;
 }
 #recycle_header {
-	width: 180px; 
-	height: 180px;
+	width: 200px; 
+	height: 200px;
 }
 #roaring_header {
-	width: 440px; 
-	height: 180px;
+	width:48.45%;	
+	/*width: 440px; */
+	height: 200px;
 }
 
 
