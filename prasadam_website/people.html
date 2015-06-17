@@ -7,104 +7,69 @@
     by www.tooplate.com 
 -->
 <style type="text/css">
-.home_padding {
+/*
+@font-face {
+    font-family: 'myFirstFont';
+    font-size: 30px;
+    text-align: justify;
+    src: url(fonts/MyriadPro-Regular.otf);
+}*/
+
+#home_padding{
     padding-left: 125px;
     position: absolute;
     top:200px;
     left:0;
     width:100%;
-    font-family: "Myriad-Pro";
 }
 
-.putti-circle {
-    position: absolute;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin-left: 100px;
-    margin-top: 290px;
-}
-.chetana-circle {
-    position: absolute;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin-left: 250px;
-    margin-top: 150px;
-}
-.ved-circle {
-    position: absolute;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin-left: 100px;
-    margin-top: 10px;
-}
-
-.container{
+#container{
     /*margin-left: 500px;*/
-    width: 430px;
+    font-family: 'myFirstFont';
+    text-align: justify;
+    line-height: 40px;
+    font-size: 23px;
+    width: 45%;
     height: 500px;
     position: absolute;
-    margin-top: 10px;
-    margin-left: 500px;
-    font-family: myFirstFont;
-    text-align: justify;
-    line-height: 30px;
+    margin-top: 30px;
+    margin-left: 675px;
 }
 
-.white_canvas{
+#white_canvas{
+    position: absolute;
     margin-left: 175px;
-    width: 80%;
-    }
-
-@font-face {
-   font-family: myFirstFont;
-   src: url(fonts/MyriadPro-Regular.otf);
+    width: 79.2%;
+    height: 550px;
 }
 
-div {
-   font-family: myFirstFont;
+#circleposition{
+    position: absolute;
+}
+
+
+/*div {
+   font-family: 'myFirstFont';
    font-size: 15px;
-}
+}*/
 
 </style>
 <title>Brown Field Template</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="css/homepage_style.css" rel="stylesheet" type="text/css" />
-
         <div class="row">
         <a href="home.html"><img src="images/home_header.png" id = "home_header"/></a><img src="images/prasadam_header.png" id="prasadam_header"  />
         </div>
-        <div class ="white_canvas">
-            <div class ="container">
-             We launched Karma Tips , a little over a year ago. We are a team of three people Vedobroto Roy , Chetana Roy and Archna Prasad who run Prasadam Paper Industries. Prasadam in our language, is a holy offering from god. I am a writer, by profession. My wife Chetana, is an artist, sculptor and a nature lover. Archna Prasad, is a technology wiz and an acute trouble-shooter (and a cute one too!).We are all Indians , by birth. The idea for Karma Tups came after a briefing session at a Big Tobacco company (client of the advertising agency I worked for) in Bangladesh. Though it is one of the most popular brand of cigarettes in the world, we were surprised to find that none of our clients smoked even though they worked for a Big Tobacco.They explained, that apart from being the most addictive substance on the planet , it was also an environmental menace.
-         </div>
-        <img class="ved-circle" src="images/ved.png">
-        <img class="chetana-circle" src="images/chetana.png">
-        <img class="putti-circle" src="images/putti.png">
-        <img src = "images/WhiteBack.jpg" class= "white_canvas"/>
-        </div>
-       
-
-
-
-   <!--      <div class="row">
-        <a href="people.html"><img src="images/people_header.png" id = "people_header"/><a href="we.html"><img src="images/we_header.png" id="we_header"  /></a><img src="images/prasadam_header.png" id="karma_header"  />
-        </div>
-
-        <div class="row">
-        <a href="shopping.html"><img src="images/shopping_header.png" id = "shopping_header"/></a><a href="contact_us.html"><img src="images/contactus_header.png" id="contactus_header"/><img src="images/prasadam_header.png" id="peace_header"  />
-        </div>
-
-        <div class="row">
-        <img src="images/facebook_header.png" id = "facebook_header"/><img src="images/whiteback.png" id="twitter_header"  /><a href="recycle.html"><img src="images/recycle_header.png" id="recycle_header"  /></a><img src="images/prasadam_header.png" id="roaring_header"  />
-        </div>
-         -->
-
-
-
+        <img src="images/WhiteBack.jpg" id = "white_canvas">
+            <div id = "container">
+             <article>
+                We launched Karma Tips , a little over a year ago. We are a team of three people Vedobroto Roy , Chetana Roy and Archna Prasad who run Prasadam Paper Industries. Prasadam in our language, is a holy offering from god. I am a writer, by profession. My wife Chetana, is an artist, sculptor and a nature lover. Archna Prasad, is a technology wiz and an acute trouble-shooter (and a cute one too!).We are all Indians , by birth. The idea for Karma Tups came after a briefing session at a Big Tobacco company (client of the advertising agency I worked for) in Bangladesh. Though it is one of the most popular brand of cigarettes in the world, we were surprised to find that none of our clients smoked even though they worked for a Big Tobacco.They explained, that apart from being the most addictive substance on the planet , it was also an environmental menace.
+             </article>
+            </div>
+        <img class="large1-circle" id = "circleposition" src="images/ved.png">
+        <img class="large2-circle" style="position:absolute" src="images/chetana.png">
+        <img class="large3-circle" style="position:absolute" src="images/putti.png">
 
 </head>
 <body>
