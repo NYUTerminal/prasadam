@@ -1,126 +1,109 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- 
-	Template 2047 Brown Field
-	by www.tooplate.com 
--->
-<title>Brown Field Template</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="css/tooplate_style.css" rel="stylesheet" type="text/css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Windows-8-like Animations with CSS3 and jQuery</title>
 
-		<script type="text/javascript" src="js/swfobject.js"></script>
-		<script type="text/javascript">
-			var flashvars = {};
-			flashvars.xml_file = "photo_list.xml";
-			var params = {};
-			params.wmode = "transparent";
-			var attributes = {};
-			attributes.id = "slider";
-			swfobject.embedSWF("flash_slider.swf", "flash_grid_slider", "440", "220", "9.0.0", false, flashvars, params, attributes);
-		</script>    
+  <link rel="stylesheet" href="css/demo-styles.css" />
+  <script src="js/modernizr-1.5.min.js"></script>
+
 </head>
+
 <body>
+  <!--===============================Prasadam====================================================-->
+<div class="body-wrapper">
+<!-- classnames for the pages should include: 1) type of page 2) page name-->
+  <div class="s-page random-restored-page">
+    <h2 class="page-title">Some minimized App</h2>
+    <div class="close-button s-close-button">x</div>
+  </div>
+  <div class="s-page custom-page">
+    <h2 class="page-title">Thank You!</h2>
+    <div class="close-button s-close-button">x</div>
+  </div>
+  <div class="r-page random-r-page">
 
-<div id="tooplate_wrapper">
+    <div class="page-content">
+      <h2 class="page-title">App Screen</h2>
+      <p>Chew iPad power cord chew iPad power cord attack feet chase mice leave dead animals as gifts and stick butt in face chew iPad power cord. Chase mice. Run in circles use lap as chair why must they do that. Intrigued by the shower destroy couch leave hair everywhere sleep on keyboard chew iPad power cord. Use lap as chair. Missing until dinner time stand in front of the computer screen, intently sniff hand. Find something else more interesting. Destroy couch play time so inspect anything brought into the house hate dog burrow under covers. Sleep on keyboard destroy couch so hate dog so hide when guests come over. Chase mice destroy couch lick butt throwup on your pillow use lap as chair yet intrigued by the shower but climb leg. Stare at ceiling make muffins or hunt anything that moves claw drapes. Intently sniff hand intrigued by the shower. Why must they do that. Cat snacks leave dead animals as gifts or inspect anything brought into the house sweet beast so stare at ceiling give attitude. Flop over claw drapes but sun bathe lick butt, and chase mice. Rub face on everything lick butt leave hair everywhere lick butt, missing until dinner time for use lap as chair lick butt. Make muffins leave dead animals as gifts play time. Chew foot intrigued by the shower stare at ceiling inspect anything brought into the house yet hopped up on goofballs. 
 
-	<div id="tooplate_header">
-        <div id="site_title">
-        	<h1><a href="#">Brown Field</a></h1>
-        </div>
-        <div id="tooplate_menu">
-            <ul>
+      Hunt anything that moves intently sniff hand for hunt anything that moves play time. Chew foot climb leg throwup on your pillow so lick butt yet make muffins hate dog. Intrigued by the shower. Intently sniff hand shake treat bag. Cat snacks burrow under covers make muffins but all of a sudden go crazy find something else more interesting. Flop over chase mice. Give attitude. Inspect anything brought into the house. Stick butt in face sun bathe so find something else more interesting and intrigued by the shower. Rub face on everything use lap as chair. 
 
-            </ul>    	
-        </div> <!-- end of tooplate_menu -->
-    </div> <!-- end of forever header -->
+      Under the bed claw drapes chase mice but leave hair everywhere yet make muffins yet claw drapes. Use lap as chair. Find something else more interesting stretch for under the bed. Nap all day intrigued by the shower, hate dog sweet beast intently sniff hand so hate dog nap all day. Swat at dog hide when guests come over and mark territory chase mice for cat snacks. Use lap as chair. Lick butt throwup on your pillow need to chase tail. 
+
+      Mark territory. Stick butt in face shake treat bag yet hunt anything that moves, yet hopped up on goofballs yet stare at ceiling under the bed. Give attitude chase imaginary bugs stretch so hunt anything that moves so hide when guests come over but intrigued by the shower find something else more interesting. Make muffins behind the couch for chew foot. Sweet beast flop over but throwup on your pillow. Intently sniff hand use lap as chair and missing until dinner time and chase imaginary bugs. 
+      </p>
+    </div>
     
-    <div id="tooplate_middle">
-    	<div id="mid_slider">
-        	<div id="flash_grid_slider">
-                <a rel="nofollow" href="http://www.adobe.com/go/getflashplayer">
-                    <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-                </a>
-			</div>
-        </div>
-        <div id="mid_left">
-            <div id="mid_title">
-                Lorem Ipsum Dolor Sit Amet	
+    <div class="close-button r-close-button">x</div>
+  </div>
+<!--each tile should specify what page type it opens (to determine which animation) and the corresponding page name it should open-->
+  <div class="dashboard clearfix">
+          <ul class="tiles">
+            <div class="col1 clearfix">
+              <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
+                <div><p>This tile's content slides up</p></div>
+                <div><p>View all tasks</p></div>
+              </li>
+              <li class="tile tile-small tile tile-2 slideTextRight" data-page-type="s-page" data-page-name ="random-restored-page">
+                <div><p class="icon-arrow-right"></p></div>
+                <div><p>Tile's content slides right. Page opens from left</p></div>
+              </li>
+              <li class="tile tile-small last tile-3" data-page-type="r-page" data-page-name="random-r-page">
+                <p class="icon-calendar-alt-fill"></p>
+              </li>
+              <li class="tile tile-big tile-4 fig-tile" data-page-type="r-page" data-page-name="random-r-page">
+                <figure>
+                  <img src="images/blue.jpg" />
+                  <figcaption class="tile-caption caption-left">Slide-out Caption from left</figcaption>
+                </figure>
+              </li>
             </div>
-            <p>Aliquam in odio ut ipsum mollis facilisis. Integer est sem, dignissim quis auctor vel, dapibus vel massa. Curabitur ligula vel mi semper tempus. Vivamus volutpat, elit non tempor vehicula. In vitae malesuada nisl. Vestibulum eget dui lorem.</p>
-            <div id="learn_more"><a href="#">Learn More</a></div>
-	  	</div>
-        <div class="cleaner"></div>
-	</div> <!-- end of middle -->
-    
-    <div id="tooplate_main_top"></div>
-    <div id="tooplate_main">
-    	
-        <div class="col_w900">
-            	<div class="con_tit_01">Brown Field Template</div>
-                <img src="images/tooplate_image_01.png" alt="Image 01" class="image_wrapper image_fl" />
-                <p><em>Curabitur dictum, enim aliquet ultricies feugiat, nunc erat sagittis augue, non varius nulla sem id lorem. Vestibulum non risus sit amet velit porta lacinia in vitae nisi. </em></p>
-            <p align="justify">Brown Field is free website template for everyone. You may download, edit and apply this template for any purpose. Credits go to <a rel="nofollow" href="http://www.icojoy.com">icojoy.com</a> for Onebit icons #2, <a rel="nofollow" href="http://www.photovaco.com">Free Photos</a> for photos, and <a rel="nofollow" href="http://www.brushking.eu/361/abstract-brush-pack-vol-7.html">forty-winks</a> for brush. Quisque in diam a justo condimentum molestie. Vivamus a velit. </p>
-            <p align="justify">Vivamus leo velit, convallis id, ultrices sit amet, tempor a, libero. Quisque rhoncus nulla quis sem. Mauris quis nulla sed ipsum pretium sagittis. Suspendisse feugiat. Ut sodales libero ut odio. Maecenas venenatis metus eu est. In sed risus ac felis varius bibendum. Nulla imperdiet congue metus. Vestibulum dapibus tortor vel orci. Praesent accumsan tristique augue et pellentesque. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a> and <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>. Thank you for visiting <a rel="nofollow" href="http://www.tooplate.com" title="free templates"><b><span class="orange">too</span><span class="green">plate</span></b></a> website.</p>	
-              <div class="cleaner"></div>
-            </div>
-    
-    		<div class="col_w900 col_w900_last">
-            	<div class="col_allw280 fp_service_box">
-                	<div class="con_tit_02">Web Design</div>
-                    <img src="images/onebit_08.png" alt="image 8" />
-                    <p>Fusce dapibus turpis vitae quam viverra, vel tincidunt elit malesuada. Maecenas ac feugiat ex.</p>
-					<a class="more" href="#">Detail</a>
-                </div>
-          		<div class="col_allw280 fp_service_box">
-                	<div class="con_tit_02">Marketing</div>
-                    <img src="images/onebit_15.png" alt="image 15" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ipsum felis, consectetur non.</p>
-                    <a class="more" href="#">Detail</a>
-                </div>
-                <div class="col_allw280 fp_service_box col_last">
-                	<div class="con_tit_02">Advertising</div>
-                    <img src="images/onebit_16.png" alt="image 16" />
-                    <p>Curabitur sed lectus id erat viverra consectetur nec in sapien. Donec ornare velit nec porttitor. </p>
-                    <a class="more" href="#">Detail</a>
-                </div>
-                <div class="cleaner h60"></div>
-          		<div class="col_allw280 fp_service_box">
-                	<div class="con_tit_02">Support</div>
-                    <img src="images/onebit_17.png" alt="image 17" />
-                    <p>Nullam vel sodales leo. Nam sollicitudin tincidunt eros ac eleifend. Mauris eu dui augue.</p>
-                    <a class="more" href="#">Detail</a>
-                </div>
-				<div class="col_allw280 fp_service_box">
-                	<div class="con_tit_02">Social Media</div>
-                    <img src="images/onebit_18.png" alt="image 18" />
-                    <p>Vivamus sollicitudin euismod massa, non feugiat nulla egestas ut. Fusce tempor tempor tellus.</p>
-                    <a class="more" href="#">Detail</a>
-                </div>
-          		<div class="col_allw280 fp_service_box col_last">
-                	<div class="con_tit_02">Global Reach</div>
-                    <img src="images/onebit_19.png" alt="image 19" />
-                    <p>Suspendisse metus felis, varius at euismod eu, egestas eu elit ante ipsum primis in orci luctus.</p>
-                    <a class="more" href="#">Detail</a>
-                </div>
-                <div class="cleaner h30"></div>
-                <div class="cleaner"></div>
-            </div>
-    	
-    	<div class="cleaner"></div>
-    </div> <!-- end of main -->
-    <div id="tooplate_main_bottom"></div>
 
-</div> <!-- wrapper -->
+            <div class="col2 clearfix">
+              <li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
+                <div><p><span class="icon-cloudy"></span>Weather</p></div>
+              </li>
+              <li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page" data-page-name="random-r-page">
+                <div><p><span class="icon-skype"></span>Skype</p></div>
+                <div><p>Make a Call</p></div>
+              </li>
+              <!--Tiles with a 3D effect should have the following structure:
+                  1) a container inside the tile with class of .faces
+                  2) 2 figure elements, one with class .front and the other with class .back-->
+              <li class="tile tile-small tile-7 rotate3d rotate3dX" data-page-type="r-page" data-page-name="random-r-page">
+                <div class="faces">
+                  <div class="front"><span class="icon-picassa"></span></div>
+                  <div class="back"><p>Launch Picassa</p></div>
+                </div>
+              </li>
+              <li class="tile tile-small last tile-8 rotate3d rotate3dY" data-page-type="r-page" data-page-name="random-r-page">
+                <div class="faces">
+                  <div class="front"><span class="icon-instagram"></span></div>
+                  <div class="back"><p>Launch Instagram</p></div>
+                </div>
+              </li>
+            </div>
 
-<div id="tooplate_footer_wrapper">
-	<div id="tooplate_footer">
-        Copyright © 2048 <a href="#">Company Name</a> 
-        | Design: <a href="http://www.tooplate.com">tooplate</a>
-	</div>
+            <div class="col3 clearfix">      
+              <li class="tile tile-2xbig tile-9 fig-tile" data-page-type="custom-page" data-page-name="random-r-page">
+                <figure>
+                  <img src="images/summer.jpg" />
+                  <figcaption class="tile-caption caption-bottom">Fixed Caption: Some Subtitle or Tile Description Goes Here with some kinda link or anything
+                  </figure>
+              </li>
+              <li class="tile tile-big tile-10" data-page-type="s-page" data-page-name="custom-page">
+                <div><p>Windows-8-like Animations with CSS3 &amp; jQuery &copy; Sara Soueidan. Licensed under MIT.</p></div>
+              </li>
+            </div>
+          </ul>
+  </div><!--end dashboard-->
+
 </div>
+<!--====================================end demo wrapper================================================-->
+  <script src="js/jquery-1.8.2.min.js"></script>
+  <script src="js/scripts.js"></script>
 
 </body>
 </html>
