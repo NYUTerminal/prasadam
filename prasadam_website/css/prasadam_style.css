@@ -1,171 +1,169 @@
-.body-wrapper {
-  padding: 2em 2em;
+html { 
   width: 100%;
   height: 100%;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative
+  background: url(../images/Background5.png) no-repeat center center fixed; 
+  /*vertical-align: baseline;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.dashboard {
-  margin: 0 auto;
-  width: 100%;
-  padding: 1em;
+body{
+color: #fff;
+font-family: 'my-regular';
 }
 
-.tile-small {
-  width: 15%;
-  margin-right: 0.5%
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, ,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
 }
 
-#tile {
-    display: inline-block;
-    position: relative;
-    width: 15%;
-    float: left;
-    margin: 0 auto 0%;
-    color: white;
-    font-size: 1.3em;
-    text-align: center;
-    /*height: 10em;*/
-    font-weight: 300;
-    overflow: hidden;
-    cursor: pointer;
-    background-color: #89CD73;
-    color: #333;
-    margin-right: 0%;
+.mainwrapper {
+  max-width: 1500px;
+  font: 10pt normal Arial, sans-serif;
+  height: auto;
+  text-align: center;
+  padding-left: 100px;
+  padding-top: 25px;
+}
+
+/* Image Box Style */
+.box {
+  border: 5px solid #fff;
+  cursor: pointer;
+  height: 200px;
+  width: 250px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  background-color: #89CD73;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
 }
 
 #white_canvas1 {
-    display: inline;
-    vertical-align: middle;
-    position: relative;
-    width: 45.5%;
-    float: left;
-    margin: 0 auto 0%;
-    color: white;
-    overflow: hidden;
-    cursor: pointer;
-    background-color: white;
-    color: #333;
-    margin-right: 0%;
-    text-align: right;
-}
-#white_canvas2 {
-    position: relative;
-    width: 45.5%;
-    float: left;
-    margin: 0 auto 0%;
-    color: white;
-    font-size: 1.3em;
-    /*height: 10em;*/
-    font-weight: 300;
-    overflow: hidden;
-    cursor: pointer;
-    background-color: white;
-    color: #333;
-    margin-right: 0%;
-    text-align: right;
+  border: 5px solid #89CD73;
+  /*cursor: pointer;*/
+  height: 600px;
+  width: 1460px;
+  float: left;
+  background-color: #fff;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
 }
 
-#dummy {
-  margin-top: 75%; /* 4:3 aspect ratio */
+@media all and (max-width: 1600px) and (min-width: 1200px) {
+      .prasadam_tile{
+        width: 800px;
+      }
+
+      .karma_peace{
+       width: 280px;
+      }
+
+      .mainwrapper{
+         padding: 15px 50px 50px 50px;
+      }
+
+      #white_canvas1{
+        height: 600px;
+        width: 1200px;
+      }
+
+      p.textarea{
+        width: 50%;
+        padding-left: 600px;
+      }
 }
-#dummy-title {
-  margin-top: 15%; /* 4:3 aspect ratio */
-}
-#dummy-peace {
-  margin-top: 25%; /* 4:3 aspect ratio */
-}
-#dummy-karma {
-  margin-top: 15%; /* 4:3 aspect ratio */
-}
-#dummy-roaring {
-  margin-top: 25%; /* 4:3 aspect ratio */
-}
-#dummy-roaring {
-  margin-top: 25%; /* 4:3 aspect ratio */
-}
-#dummy-white {
-  margin-top: 85%; /* 4:3 aspect ratio */
+
+@media all and (max-width: 1440px) and (min-width: 1000px) {
+  .mainwrapper{
+     padding: 15px 50px 50px 50px;
+  }
 }
 
 
-#element {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-   /* show me! */
+.prasadam_tile{
+  width: 1200px;
 }
 
-@font-face {
-   font-family: 'myFirstFont';
-   src: url(../fonts/MyriadPro-Regular.otf);
+.karma_peace{
+  width: 680px;
 }
 
-ul{
+ul ,li{
+  padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 
-body {
-  width: 100%;
-  height: 100%;
-  line-height: 1.5;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  background-color: #eee;
-  background: url(../images/Background5.png);
-  background-size: 100%;
-  font-family: 'myFirstFont';
-}
+div{
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
 
-html {
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden
 }
-
-.right {
-    position: absolute;
-    right: 0px;
-    width: 30px;
-    background-color: #b0e0e6;
-}
-
 .padding-row1{
-      padding-right: 625px;
-      padding-top: 30px;
+      padding-right: 1350px;
+      padding-top: 25px;
 }
 
 .padding-row2{
-      padding-right: 370px;
+      padding-right: 875px;
       padding-top: 150px;
 }
 
 .padding-row3{
-      padding-right: 625px;
+      padding-right: 1350px;
       padding-top: 150px;
 }
 
-.large3-circle {
+#white_canvas1 .large3-circle {
+  vertical-align: left;
     border-radius: 50%;
     width: 250px;
     height: 250px;
+    position: absolute;
+    float: left;
 }
-.large2-circle {
+
+#white_canvas1 .large2-circle {
     border-radius: 50%;
     width: 250px;
     height: 250px;
+    position: absolute;
+    float: left;
 }
-.large1-circle {
+#white_canvas1 .large1-circle {
     border-radius: 50%;
     width: 250px;
     height: 250px;
+    float: left;
+    position: absolute;
+}
+
+#white_canvas1 .large1-circle , .large2-circle , .large3-circle{
+  border: 5px solid #89CD73;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 3px 3px 3px 3px #ccc;
 }
 
 .small4-circle {
@@ -189,16 +187,145 @@ html {
 }
 
 .small1-circle {
-    position: absolute;
     border-radius: 50%;
     width: 125px;
     height: 125px;
 }
 
-p.textarea{
-    width: 90%;
-    text-align: justify;
-    font-size: 25px;
-    line-height: 45px;
+.smallcircle-row{
+  position: absolute;
+      padding-left: 800px;
+      padding-top: 425px;
 }
 
+p.textarea{
+    font-family: 'my-light';
+    width: 50%;
+    text-align: justify;
+    font-size: 25px;
+    line-height: 50px;
+    color: #585858;
+    position: absolute;
+    padding-left: 600px;
+}
+
+p.text-headline{
+    font-family: 'my-regular';
+    width: 100%;
+    text-align: justify;
+    font-size: 35px;
+    line-height: 20px;
+    color: #585858;
+}
+
+@font-face {
+   font-family: 'my-light';
+   src: url(../fonts/MyriadPro-Light_0.otf);
+}
+
+@font-face {
+   font-family: 'my-regular';
+   src: url(../fonts/MyriadPro-Regular.otf);
+}
+
+.caption {
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    left: 0;
+}
+
+.ved .simple-caption {
+    height: 30px;
+    width: 200px;
+    display: block;
+    bottom: -30px;
+    line-height: 25pt;
+    text-align: center;
+}
+
+.element:hover .simple-caption {
+    -moz-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.text-input{
+  position: absolute;
+}
+
+.name , .email , .message{
+  padding-left: 800px;
+  padding-top: 75px;
+}
+
+.send{
+  padding-left: 800px;
+  padding-top: 75px;
+}
+
+input[type="text"],textarea {
+  display: block;
+  margin: 0;
+  width: 65%;
+  font-family: 'my-light';
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  position: absolute;
+}
+
+textarea {
+  width: 65%;
+  height: 80%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.style-1 input[type="text"] ,textarea {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+.style-1 input[type="text"]:focus,
+.style-1 input[type="text"].focus,
+.style-1 textarea:focus,
+.style-1 textarea.focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #89CD73;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+ position: absolute;
+}
+
+.btn:hover {
+  position: absolute;
+  background: #ffffff;
+  color: #89CD73;
+  text-decoration: none;
+}

@@ -1,0 +1,220 @@
+.body-wrapper {
+  padding: 2em 2em;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative
+}
+
+.dashboard {
+  margin: 0 auto;
+  width: 100%;
+  padding: 1em;
+}
+
+.tile-small {
+  width: 15%;
+  margin-right: 0.5%
+}
+
+#tile {
+    display: inline-block;
+    position: relative;
+    width: 15%;
+    float: left;
+    margin: 0 auto 0%;
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    /*height: 10em;*/
+    font-weight: 300;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #89CD73;
+    color: #333;
+    margin-right: 0%;
+}
+
+#white_canvas1 {
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+    width: 45.5%;
+    float: left;
+    margin: 0 auto 0%;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    margin-right: 0%;
+    text-align: right;
+}
+#white_canvas2 {
+    position: relative;
+    width: 45.5%;
+    float: left;
+    margin: 0 auto 0%;
+    color: white;
+    font-size: 1.3em;
+    /*height: 10em;*/
+    font-weight: 300;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    margin-right: 0%;
+    text-align: right;
+}
+
+#dummy {
+  margin-top: 75%; /* 4:3 aspect ratio */
+}
+#dummy-title {
+  margin-top: 15%; /* 4:3 aspect ratio */
+}
+#dummy-peace {
+  margin-top: 25%; /* 4:3 aspect ratio */
+}
+#dummy-karma {
+  margin-top: 15%; /* 4:3 aspect ratio */
+}
+#dummy-roaring {
+  margin-top: 25%; /* 4:3 aspect ratio */
+}
+#dummy-roaring {
+  margin-top: 25%; /* 4:3 aspect ratio */
+}
+#dummy-white {
+  margin-top: 85%; /* 4:3 aspect ratio */
+}
+
+
+#element {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+   /* show me! */
+}
+
+ul{
+  list-style-type: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  background-color: #eee;
+  background: url(../images/Background5.png);
+  background-size: 100%;
+  font-family: 'my-light';
+}
+
+html {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 30px;
+    background-color: #b0e0e6;
+}
+
+.padding-row1{
+      padding-right: 625px;
+      padding-top: 30px;
+}
+
+.padding-row2{
+      padding-right: 370px;
+      padding-top: 150px;
+}
+
+.padding-row3{
+      padding-right: 625px;
+      padding-top: 150px;
+}
+
+.large3-circle {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.large2-circle {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.large1-circle {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.small4-circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.small3-circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+}
+.small2-circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.small1-circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+p.textarea{
+    font-family: 'my-regular';
+    width: 90%;
+    text-align: justify;
+    font-size: 23px;
+    line-height: 45px;
+    color: #585858;
+}
+
+p.text-headline{
+    font-family: 'my-regular';
+    width: 100%;
+    text-align: justify;
+    font-size: 35px;
+    line-height: 20px;
+    color: #585858;
+}
+
+@font-face {
+   font-family: 'my-light';
+   src: url(../fonts/MyriadPro-Light_0.otf);
+}
+
+@font-face {
+   font-family: 'my-regular';
+   src: url(../fonts/MyriadPro-Regular.otf);
+}
+
