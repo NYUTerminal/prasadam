@@ -20,7 +20,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, ,
-dl, dt, dd, ol, ul, li,
+dl, dt,style dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -44,7 +44,7 @@ time, mark, audio, video{
 
 /* Image Box Style */
 .box {
-  border: 5px solid #fff;
+  border: 5px solid #E6E6E6;
   cursor: pointer;
   height: 200px;
   width: 250px;
@@ -55,10 +55,34 @@ time, mark, audio, video{
     -webkit-box-shadow: 1px 1px 1px 1px #ccc;
     -moz-box-shadow: 1px 1px 1px 1px #ccc;
     box-shadow: 1px 1px 1px 1px #ccc;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 1s;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -o-transition: -o-transform 0.2s;
+    transition: -webkit-transform 1s;
+    transition: -ms-transform 1s;
+    transition: -o-transform 1s;
+    transition: transform 1s
+}
+
+/** Caption 3: Fade **/
+ .fade-caption {
+  opacity: 0;
+  height: 200px;
+  width: 250px;
+  text-align: left;
+  padding: 10px;
+}
+
+/** Fade Caption :hover Behaviour **/
+ .box:hover .fade-caption  {
+  opacity: 0.7;
 }
 
 #white_canvas1 {
-  border: 5px solid #89CD73;
+  border: 5px solid #E6E6E6;
   /*cursor: pointer;*/
   height: 600px;
   width: 1460px;
@@ -69,7 +93,7 @@ time, mark, audio, video{
     box-shadow: 1px 1px 1px 1px #ccc;
 }
 
-@media all and (max-width: 1600px) and (min-width: 1200px) {
+/*@media all and (max-width: 1600px) and (min-width: 1200px) {
       .prasadam_tile{
         width: 800px;
       }
@@ -93,11 +117,13 @@ time, mark, audio, video{
       }
 }
 
+
+
 @media all and (max-width: 1440px) and (min-width: 1000px) {
   .mainwrapper{
      padding: 15px 50px 50px 50px;
   }
-}
+}*/
 
 
 .prasadam_tile{
@@ -159,7 +185,7 @@ margin: 0px 0px 0px 0px;
 }
 
 #white_canvas1 .large1-circle , .large2-circle , .large3-circle{
-  border: 5px solid #89CD73;
+  border: 5px solid #E6E6E6;
     background-color: #fff;
     -webkit-box-shadow: 1px 1px 1px 1px #ccc;
     -moz-box-shadow: 1px 1px 1px 1px #ccc;
@@ -200,7 +226,7 @@ margin: 0px 0px 0px 0px;
 
 p.textarea{
     font-family: 'my-light';
-    width: 50%;
+    width: 825px;
     text-align: justify;
     font-size: 25px;
     line-height: 50px;
@@ -260,15 +286,15 @@ p.text-headline{
 .text-input{
   position: absolute;
 }
-
 .name , .email , .message{
   padding-left: 800px;
   padding-top: 75px;
 }
 
 .send{
-  padding-left: 800px;
-  padding-top: 75px;
+  position: absolute;
+  padding-left: 1245px;
+  padding-top: 450px;
 }
 
 input[type="text"],textarea {
@@ -328,4 +354,234 @@ textarea:focus {
   background: #ffffff;
   color: #89CD73;
   text-decoration: none;
+}
+
+.prasadam_address{
+    font-family: 'my-light';
+    width: 75%;
+    text-align: justify;
+    font-size: 25px;
+    line-height: 50px;
+    color: #585858;
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+/*
+.rotate3d {
+  -webkit-perspective: 1000px;
+  -ms-perspective: 1000px;
+  -o-perspective: 1000px;
+  perspective: 1000px;
+  overflow: visible
+}
+
+.rotate3dY .back {
+  -webkit-transform: rotateY( 180deg );
+  -ms-transform: rotateY( 180deg );
+  -o-transform: rotateY( 180deg );
+  transform: rotateY( 180deg )
+}
+
+.rotate3dX .back {
+  -webkit-transform: rotateX( 180deg );
+  -ms-transform: rotateX( 180deg );
+  -o-transform: rotateX( 180deg );
+  transform: rotateX( 180deg )
+}
+
+.rotate3dY:hover .box:hover {
+  -webkit-transform: rotateY( 180deg );
+  -ms-transform: rotateY( 180deg );
+  -o-transform: rotateY( 180deg );
+  transform: rotateY( 180deg )
+}
+
+.rotate3dX:hover .box:hover {
+  -webkit-transform: rotateX( 180deg );
+  -ms-transform: rotateX( 180deg );
+  -o-transform: rotateX( 180deg );
+  transform: rotateX( 180deg )
+}*/
+
+@media screen and (max-width: 1600px) and (min-width: 1400px) and (-webkit-min-device-pixel-ratio: 1) {
+      .prasadam_tile{
+        width: 1000px;
+      }
+
+      .karma_peace{
+       width: 480px;
+      }
+
+      .mainwrapper{
+         padding: 15px 50px 50px 50px;
+      }
+
+      #white_canvas1{
+        height: 600px;
+        width: 1260px;
+      }
+
+      p.textarea{
+        width: 775px;
+        font-size: 23px;
+        padding-left: 450px;
+      }
+      #white_canvas1 .large1-circle ,#white_canvas1 .large2-circle ,#white_canvas1 .large3-circle{
+        width: 200px;
+        height: 200px;
+      }
+
+      .smallcircle-row{
+      padding-left: 625px;
+      }
+      .prasadam_address{
+          padding-left: 150px;
+      }
+
+      .name , .email , .message{
+        padding-left: 675px;
+      }
+      .send{
+          padding-left: 1035px;
+      }
+
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1400px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution:192dpi) {
+  .prasadam_tile{
+        width: 1000px;
+      }
+
+      .karma_peace{
+       width: 480px;
+      }
+
+      .mainwrapper{
+         padding: 15px 50px 50px 50px;
+      }
+
+      #white_canvas1{
+        height: 600px;
+        width: 1200px;
+      }
+
+      p.textarea{
+        width: 50%;
+        padding-left: 600px;
+      }
+
+      .smallcircle-row{
+      padding-left: 625px;
+      }
+      
+      .prasadam_address{
+          padding-left: 150px;
+      }
+
+      .name , .email , .message{
+        padding-left: 675px;
+      }
+      .send{
+          padding-left: 1035px;
+      }
+
+
+}
+
+@media screen and (max-width: 1400px) and (min-width: 720px) and (-webkit-min-device-pixel-ratio: 1) {
+    .prasadam_tile{
+        width: 800px;
+      }
+
+      .karma_peace{
+       width: 280px;
+      }
+
+      .mainwrapper{
+         padding: 5px 50px 50px 50px;
+      }
+
+      #white_canvas1{
+        height: 600px;
+        width: 1060px;
+      }
+
+      p.textarea{
+        width: 775px;
+        font-size: 23px;
+        padding-left: 250px;
+      }
+      #white_canvas1 .large1-circle ,#white_canvas1 .large2-circle ,#white_canvas1 .large3-circle{
+        width: 150px;
+        height: 150px;
+      }
+      .padding-row1{
+           padding-right: 1000px;
+           padding-top: 25px;
+      }
+      .padding-row2{
+            padding-right: 1000px;
+            padding-top: 170px;
+      }
+       .padding-row3{
+            padding-right: 1000px;
+            padding-top: 170px;
+      }
+
+      .smallcircle-row{
+        padding-left: 425px;
+      }
+
+       .prasadam_address{
+        padding-left: 50px;
+      }
+
+      .name , .email , .message{
+        padding-left: 575px;
+      }
+
+      .send{
+          padding-left: 873px;
+      }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 720px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution:192dpi) {
+   .prasadam_tile{
+        width: 800px;
+      }
+
+      .karma_peace{
+       width: 280px;
+      }
+
+      .mainwrapper{
+         padding: 5px 50px 50px 50px;
+      }
+
+      #white_canvas1{
+        height: 600px;
+        width: 1200px;
+      }
+
+      p.textarea{
+        width: 50%;
+        padding-left: 600px;
+      }
+
+       .prasadam_address{
+        padding-left: 50px;
+      }
+
+      .smallcircle-row{
+        padding-left: 425px;
+      }
+
+      .name , .email , .message{
+        padding-left: 475px;
+      }
+
+      .send{
+          padding-left: 873px;
+      }
 }
